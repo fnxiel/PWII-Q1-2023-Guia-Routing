@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IVenta } from './Interfaces/IVenta';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'guia-q1-2023-routing';
+  
 }

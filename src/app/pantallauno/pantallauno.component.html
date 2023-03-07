@@ -1,0 +1,11 @@
+<h1>Dashboard</h1>
+<h2>Bienvenido: {{nombreUsuario}}</h2>
+
+<div>
+    <p>Este es el resumen de la empresa</p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, quisquam reiciendis ullam sed, esse aut sit consectetur ratione sapiente corporis illo laborum mollitia aperiam repudiandae nesciunt. Quasi delectus fuga placeat!
+    </p>
+
+    <app-venta *ngFor="let venta of ventasFiltradas" [producto]="venta"></app-venta>
+</div>

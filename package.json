@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "generarpantallauno": "ng g c pantallauno",
+    "generarpantallados": "ng g c pantallados",
+    "generarventas": "ng g c venta"
   },
   "private": true,
   "dependencies": {
